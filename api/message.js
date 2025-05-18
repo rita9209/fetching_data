@@ -3,7 +3,7 @@ const https = require('https');
 module.exports = (req, res) => {
   const options = {
     hostname: 'script.google.com',
-    path: '/macros/s/AKfycbwyn5RmjRH7Qm1v8hQdcffcAIT2X-VSm4J8KY9c_PJjfCX_QJhI_YLt8yioNXyZ_kpF/exec',
+    path: '/macros/s/AKfycbwqhOAWMjSMauJa_cN31ASuhGIEPNsmFBvu3TtTN3dzui_eTN5-Ia33I4HP3lzENtk/exec',
     method: 'GET',
     headers: {
       'User-Agent': 'Mozilla/5.0' // 避免被當成機器人封鎖
